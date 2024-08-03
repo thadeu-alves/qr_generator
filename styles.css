@@ -70,3 +70,27 @@ body{
     background-color: #F29F05;
     color: white;
 }
+
+.content button:hover{
+    animation: up 500ms forwards;
+    -webkit-animation: up 500ms forwards;
+}
+
+.content input:hover{
+    animation: up 500ms forwards;
+    -webkit-animation: up 500ms forwards;
+}
+
+.content img:hover{
+    
+}
+
+@keyframes up {
+    100%{
+        transform: translateY(-8%);
+        -webkit-transform: translateY(-8%);
+        -moz-transform: translateY(-8%);
+        -ms-transform: translateY(-8%);
+        -o-transform: translateY(-8%);
+}
+}
